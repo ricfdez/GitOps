@@ -36,6 +36,12 @@ build >> test >> Security Checks >> Release >> Deploy Stage >> Deploy Prod
 
 ## App deployment with Gitops in K8s
 
+https://developer.hashicorp.com/terraform/tutorials/kubernetes/gke
+
 - The application deployment model on Kubernetes can be either in-cluster or external
   - external GitOps tool can use Kubernetes just as a target platform for deploying apps.
 - In-cluster approaches run a GitOps engine inside Kubernetes to deploy apps and sync manifests in one or more Kubernetes clusters.
+
+For provisioning demo -> go to gke-cluster for initialization
+- Compute engine should be initialized in project
+- kubernetes api engine
