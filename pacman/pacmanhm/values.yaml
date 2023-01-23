@@ -1,0 +1,15 @@
+image: #defines image section
+  repository: quay.io/gitops-cookbook/pacman-kikd #sets repo property
+  tag: "1.1.0"
+  pullPolicy: Always
+  containerPort: 8080
+
+replicaCount: 1
+#securityContext:
+ # capabilities:
+  #  drop:
+   # - ALL
+  #readOnlyRootFilesystem: true
+  #runAsNonRoot: true
+  #runAsUser: 1000
+securityContext: {} # empty security context
